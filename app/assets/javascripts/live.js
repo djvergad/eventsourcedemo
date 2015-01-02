@@ -11,7 +11,6 @@ var LiveClient = (function() {
             // with sources remaining open after visiting internal
             // pages
             if (typeof source != "undefined" && source != null) {
-                console.log(source);
                 if (source.OPEN) {
                     source.close();
                     console.log("Closed source");
