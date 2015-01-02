@@ -4,5 +4,7 @@
 
 <p>This is page <%= params[:id] -%></p>
 <script>
-  LiveClient.live(<%= params[:id] -%>)
+  $(function(){
+    LiveClient.live(<%= params[:id] -%>)
+  });
 </script>
