@@ -8,6 +8,9 @@
 </head>
 <body>
 
+<% 1.upto 3 do |i| %>
+  <a href="/test/test/<%= i -%>">Page <%= i -%></a> |
+<% end %>
 
 <%= yield %>
 

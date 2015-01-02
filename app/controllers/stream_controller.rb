@@ -8,7 +8,7 @@ class StreamController < ApplicationController
     ActiveRecord::Base.connection.close
 
     loop do
-      sleep 1;
+      sleep 5;
       sse.write("OK".to_json, event: 'messages.keepalive')
     end
 

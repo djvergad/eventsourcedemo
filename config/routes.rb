@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'test/test/:id' => 'test#test'
+
   get 'stream/tick'
 
   # The priority is based upon order of creation: first created -> highest priority.
