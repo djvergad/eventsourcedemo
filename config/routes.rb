@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'test/test/:id' => 'test#test'
+  get 'test/test_global/:id' => 'test#test_global'
+
 
   get 'stream/tick'
 
