@@ -17,4 +17,4 @@
 /tmp
 
 # RubyMine config files
-/.idea
+/.idea/*
